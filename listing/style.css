@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    font-size: 45px;
+}
+
+nav {
+    background: #08843c;
+    height: 9vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    top: 0;
+    position: fixed;
+    z-index: 1;
+}
+
+.ads {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80px;
+    font-weight: bold;
+}
+
+.nav-logo {
+    width: 40%;
+}
+
+.nav-trailing {
+    display: flex;
+    font-size: 25px;
+}
+
+.nav-trailing span {
+    width: 10px;
+}
+
+.fa-bars {
+    font-size: 25px;
+}
+
+.content {
+    width: 70%;
+}
+
+.search-area {
+    width: 70%;
+}
+
+.search-area button {
+    border: solid grey 1px;
+    background-color: orange;
+}
+
+.search-area div i {
+    color: orange;
+    padding: 0px 12px;
+}
+
+.search-area .item:nth-child(1) {
+    border-right: solid 1px;
+}
+
+.search-area .item:nth-child(3) .form-control:focus,
+.search-area .item:nth-child(3) .button:focus {
+    outline: none !important;
+    border: solid grey 1px;
+    box-shadow: 0 0 10px white;
+    padding-bottom: 3vh;
+}
+
+.content .right .img-fluid {
+    height: auto;
+    width: auto;
+    border: solid;
+}
+
+.content .right .row button {
+    font-size: 15px;
+    width: 30%;
+    margin-left: 1.5%;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    border-radius: 10px;
+}
+
+.content .right .tile {
+    height: 35vh;
+    width: 100%;
+    background-color: #ffdcbe;
+    margin: 0;
+    padding: 10px 20px;
+    margin-bottom: 1vh;
+}
+
+#space {
+    height: 10vh;
+}
+
+.content .right .tile .col-4 {
+    background: url(./img/listing_img.png) center no-repeat;
+    background-size: 100%;
+}
+
+.content .right .tile .col-8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer {
+    background-color: #08843c;
+    width: 100%;
+    height: auto;
+    color: white;
+    padding: 5vh;
+}
+
+footer .row {
+    margin: 0;
+}
+
+.social-links ul {
+    list-style: none;
+}
+
+.social-links ul li i {
+    padding: 0;
+    margin: 0;
+}

@@ -1,0 +1,30 @@
+@media only screen and (max-width: 1000px) {
+    .ads {
+        display: none;
+    }
+    .button-set {
+        display: none;
+    }
+    .nav-logo {
+        width: auto;
+    }
+    .content {
+        width: 90%;
+    }
+    .search-area {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .content .right .row button {
+        font-size: 12px;
+        width: 40%;
+    }
+    .content {
+        width: 100%;
+    }
+    .search-area {
+        width: 100%;
+    }
+}
