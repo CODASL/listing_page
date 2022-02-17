@@ -69,13 +69,13 @@ nav {
     background-color: orange;
 }
 
-.search-area div i {
+.search-area .item i {
     color: orange;
     padding: 0px 12px;
 }
 
-.search-area .item:nth-child(3) .form-control:focus,
-.search-area .item:nth-child(3) .button:focus {
+.search-area .item:nth-child(2) .form-control:focus,
+.search-area .item:nth-child(2) .button:focus {
     outline: none !important;
     border: solid grey 1px;
     box-shadow: 0 0 10px white;
