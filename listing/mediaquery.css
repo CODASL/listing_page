@@ -27,4 +27,31 @@
     .search-area {
         width: 100%;
     }
+    .search-area .item {
+        font-size: 13px;
+    }
+    .search-area .item div input,
+    .search-area .item div button {
+        font-size: 13px;
+    }
+    .tile-right h5 {
+        font-size: 16px;
+    }
+    .tile-right p {
+        font-size: 11.5px;
+    }
+    .tile-right h6 {
+        font-size: 13.5px;
+    }
+    .content .right .tile {
+        height: 25vh;
+    }
+    footer .row div h4 {
+        font-size: 16px;
+    }
+    footer .row div p,
+    .social-links,
+    ul {
+        font-size: 11px;
+    }
 }
